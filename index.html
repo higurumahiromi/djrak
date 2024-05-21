@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJRAK Apparel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/1d602417a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <a href="#" class="closebtn" id="closeBtn">&times;</a>
+        <a href="#profile">Profile</a>
+        <a href="#security">Security</a>
+        <a href="#notifications">Notifications</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#language">Language</a>
+    </div>
+    <div class="navbar">
+        <img src="images/logo.png" alt="">
+        <div class="navlinks">
+            <a href="index.html" class="active">Home</a>
+            <a href="pages/bargain1.html">Bargain with Sellers</a>
+            <a href="pages/about.html">About our Company</a>
+        </div>
+        <div class="navbtn">
+            <a href="pages/cart.html"><i class="fa fa-shopping-basket"></i></a>
+            <i class="fa fa-bars" id="toggleBtn"></i>
+        </div>
+    </div>
+    <div class="introhead">
+        <img src="images/forintro.png" alt="">
+        <div class="introtexts">
+            <label class="introwebname">DJRAK Apparel</label>
+            <label class="introwebdescription">Welcome to DJRAK Apparel, your go-to for stylish, affordable fashion.</label>
+            <button class="shopnow" onclick="shopnow()">Shop Now</button>
+        </div>
+    </div>
+    <div class="line">
+        <div></div>        
+    </div>
+    <div class="productsection" id="target-section">
+        <div class="every2">
+            <div class="card">
+                <img src="images/products/pants.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Black Pants</label>
+                    <label class="productprice">₱650.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/products/shirt.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">T-shirt</label>
+                    <label class="productprice">₱400.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="every2">
+            <div class="card">
+                <img src="images/products/blackbutterfly.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Black Butterfly</label>
+                    <label class="productprice">₱550.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/products/poloshirt.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Polo-shirt</label>
+                    <label class="productprice">₱350.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="every2">
+            <div class="card">
+                <img src="images/products/poloshirt2.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Polo-shirt</label>
+                    <label class="productprice">₱280.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/products/poloshirt3.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Polo-shirt</label>
+                    <label class="productprice">₱320.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="every2">
+            <div class="card">
+                <img src="images/products/croptop.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Crop Top</label>
+                    <label class="productprice">₱370.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/products/croptop2.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Crop Top</label>
+                    <label class="productprice">₱400.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="every2">
+            <div class="card">
+                <img src="images/products/croptop3.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Crop Top</label>
+                    <label class="productprice">₱300.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/products/croptop4.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Crop Top</label>
+                    <label class="productprice">₱360.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="every2">
+            <div class="card">
+                <img src="images/products/croptop5.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Crop Top</label>
+                    <label class="productprice">₱320.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/products/croptop6.png" alt="">
+                <div class="productinfo">
+                    <label class="productname">Crop Top</label>
+                    <label class="productprice">₱340.00</label>
+                    <div class="addbuy">
+                        <button class="add">Add to cart</button>
+                        <button class="buy">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="pages/moreproducts.html">
+            <div class="showmore">
+                <label>Show More</label>
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </a>
+    </div>
+    <div class="line">
+        <div></div>        
+    </div>
+    <div class="footer">
+        <div class="firstpart">
+            <img src="images/logo.png" alt="">
+            <div class="help alinks">
+                <a href="">Terms of Service</a>
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="secondpart">
+            <div class="findus">
+                <label>Help</label>
+                <div class="alinks">
+                    <a href="">Terms of Service</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Cookie Settings</a>
+                    <a href="">FAQs</a>
+                </div>
+            </div>
+            <div>
+                <label>Find Us</label>
+                <div class="sociallinks alinks">
+                    <a href=""><i class="fa fa-facebook-f"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <label>&copy DJRAK Apparel. All rights reserved 2024.</label>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
